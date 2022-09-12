@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+
+  padding: 2rem;
+
+  margin: 20px auto;
+
+  @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Ubuntu:wght@300;400;700&display=swap");
+  font-family: "Ubuntu", sans-serif;
+
+  box-sizing: border-box;
+}
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    225deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgb(0, 61, 98) 100%
+  );
+  color: white;
+}

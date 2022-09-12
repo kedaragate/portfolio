@@ -1,0 +1,31 @@
+.header-section {
+  text-align: center;
+}
+.heading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.heyThereText {
+  display: block;
+}
+.webDeveloperText {
+  animation: displayWebDeveloper 5s ease-in-out infinite;
+}
+@keyframes displayWebDeveloper {
+  0% {
+    color: brown;
+  }
+  25% {
+    color: aquamarine;
+  }
+  50% {
+    color: violet;
+  }
+  75% {
+    color: blueviolet;
+  }
+  100% {
+    color: orange;
+  }
+}
