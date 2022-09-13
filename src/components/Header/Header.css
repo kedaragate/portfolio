@@ -1,16 +1,20 @@
 .header-section {
   text-align: center;
+border:2px solid red;
 }
 .heading {
   font-size: 3rem;
   font-weight: 700;
+
 }
 
 .heyThereText {
   display: block;
 Width:100%
+border:2px solid red;
 }
 .webDeveloperText {
+border:2px solid red;
   animation: displayWebDeveloper 5s ease-in-out infinite;
 }
 @keyframes displayWebDeveloper {
