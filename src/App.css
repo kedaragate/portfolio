@@ -17,8 +17,8 @@ body {
     rgba(0, 0, 0, 1) 50%,
     rgb(0, 61, 98) 100%
   );
-width:100vw;
+width:100%;
   color: white;
-height:100vh;
+height:100%;
 background-repeat: no-repeat;
 }
