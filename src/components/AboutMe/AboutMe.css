@@ -27,3 +27,9 @@
 .about-me-heading {
   text-align: center;
 }
+
+@media only screen and (min-width: 768px) {
+.about-me-container {
+  flex-wrap: wrap;
+}
+}
