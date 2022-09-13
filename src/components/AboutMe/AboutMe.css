@@ -28,7 +28,7 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 1081px) {
 .about-me-container {
   flex-wrap: wrap;
 }
