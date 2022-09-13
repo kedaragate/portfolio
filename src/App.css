@@ -1,6 +1,6 @@
 #root {
  
-
+max-width:1280px
   padding: 2rem;
 
   margin: 20px auto;
@@ -17,7 +17,7 @@ body {
     rgba(0, 0, 0, 1) 50%,
     rgb(0, 61, 98) 100%
   );
-width:100vw;
+
   color: white;
 height:100vh;
 background-repeat: no-repeat;
