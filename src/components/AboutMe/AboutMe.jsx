@@ -1,10 +1,10 @@
 import "./AboutMe.css";
-
+import myImg from "../../images/myimg/myImg.jpg";
 export default function AboutMe() {
   return (
     <div className="about-me-container">
       <div className="my-img-container">
-        <img src="../../../public/images/myimg/myImg.jpg" className="my-img" />
+        <img src={myImg} className="my-img" />
       </div>
       <div className="about-me">
         <h2 className="about-me-heading">About Me</h2>

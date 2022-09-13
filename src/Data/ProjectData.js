@@ -1,10 +1,10 @@
-import cal from "../../public/images/calculatorProject.jpg";
+import calculatorProject from "../images/calculatorProject.jpg";
 
 const ProjectData = [
   {
     projectName: "Calulator",
     projectInfo: "Project using HTML, css & Vannilla Javascript",
-    projectImg: "../../public/images/calculatorProject.jpg",
+    projectImg: calculatorProject,
     projectLink: "https://incomparable-blancmange-390e08.netlify.app/",
     projectID: 1,
   },

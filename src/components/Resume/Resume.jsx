@@ -1,4 +1,3 @@
-// import Resume from "../Resume/Advertisement_AE_FO.pdf";
 import "./Resume.css";
 export default function Resume() {
   function openInNewTab(url) {
@@ -8,7 +7,9 @@ export default function Resume() {
     <div class="resume-button-area">
       <button
         className="resume-button"
-        onClick={() => openInNewTab("../Resume/Advertisement_AE_FO.pdf")}
+        onClick={() =>
+          openInNewTab("../../Data/resume/Advertisement_AE_FO.pdf")
+        }
       >
         View / Download my Resume
       </button>
