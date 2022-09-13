@@ -5,7 +5,7 @@ export default function Header() {
     let currentTime = new Date().getHours();
     if (currentTime > 5 && currentTime < 12) {
       return "Good Morning!";
-    } else if ((currentTime >= 12) & (currentTime < 5)) {
+    } else if ((currentTime >= 12) & (currentTime < 17)) {
       return "Good Afternoon!";
     } else {
       return "Good Evening!";
