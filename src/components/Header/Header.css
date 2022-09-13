@@ -8,6 +8,7 @@
 
 .heyThereText {
   display: block;
+Width:100%
 }
 .webDeveloperText {
   animation: displayWebDeveloper 5s ease-in-out infinite;
