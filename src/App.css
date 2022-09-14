@@ -1,6 +1,4 @@
 #root {
- 
-
   padding: 2rem;
 
   margin: 20px auto;
@@ -17,11 +15,9 @@ body {
     rgba(0, 0, 0, 1) 50%,
     rgb(0, 61, 98) 100%
   );
-
+  min-width: 100%;
+  border: 2px solid red;
 
   color: white;
-background-attachment:fixed;
-
-
-
+  background-attachment: fixed;
 }

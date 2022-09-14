@@ -7,3 +7,9 @@
   margin: 10px 10px;
   justify-content: center;
 }
+
+@media only screen and (max-width: 375px) {
+  .projects-container-heading {
+    font-size: 1.05rem;
+  }
+}

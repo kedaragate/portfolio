@@ -23,6 +23,7 @@
   position: fixed;
   right: 0;
   margin-right: 20px;
+  border: 2px solid red;
 
   text-align: right;
 }

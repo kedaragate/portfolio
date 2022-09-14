@@ -3,7 +3,8 @@ import "./Header.css";
 export default function Header() {
   function getCurrentTime() {
     let currentTime = new Date().getHours();
-    if (currentTime > 5 && currentTime < 12) {
+    console.log(currentTime);
+    if (currentTime >= 5 && currentTime < 12) {
       return "Good Morning!";
     } else if ((currentTime >= 12) & (currentTime < 17)) {
       return "Good Afternoon!";
