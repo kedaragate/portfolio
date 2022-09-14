@@ -13,3 +13,8 @@
     font-size: 1.05rem;
   }
 }
+@media only screen and (max-width: 414px) {
+  .projects-container-heading {
+    font-size: 1.05rem;
+  }
+}

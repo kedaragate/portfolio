@@ -4,7 +4,7 @@ export default function Resume() {
     window.open(url, "_blank", "noopener,noreferrer");
   }
   return (
-    <div class="resume-button-area">
+    <div className="resume-button-area">
       <button
         className="resume-button"
         onClick={() =>

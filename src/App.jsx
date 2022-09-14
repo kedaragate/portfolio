@@ -4,7 +4,6 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import ContactMe from "./components/ContactMe/ContactMe";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Projects from "./components/Projects/Projects";
-import { useEffect } from "react";
 
 import "./App.css";
 import Resume from "./components/Resume/Resume";

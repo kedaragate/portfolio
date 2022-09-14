@@ -1,6 +1,5 @@
 .header-section {
   text-align: center;
-  border: 2px solid red;
 }
 .heading {
   font-size: 3rem;
@@ -10,10 +9,8 @@
 .heyThereText {
   display: block;
   width: 100%;
-  border: 2px solid green;
 }
 .webDeveloperText {
-  border: 2px solid red;
   animation: displayWebDeveloper 5s ease-in-out infinite;
 }
 @keyframes displayWebDeveloper {
@@ -34,7 +31,26 @@
   }
 }
 
+@media only screen and (max-width: 360px) {
+  .header-section {
+    width: 100%;
+  }
+  .heading {
+    font-size: 1.05rem;
+    font-weight: 700;
+  }
+}
 @media only screen and (max-width: 375px) {
+  .header-section {
+    display: block;
+    width: 100%;
+  }
+  .heading {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+}
+@media only screen and (max-width: 414px) {
   .header-section {
     display: block;
     width: 100%;

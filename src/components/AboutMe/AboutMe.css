@@ -23,7 +23,6 @@
 .about-me {
   width: 50%;
   padding: 1rem;
-  border: 1px solid green;
 }
 
 .about-me-heading {
@@ -34,7 +33,26 @@
   .about-me-container {
     max-width: 100%;
     flex-wrap: wrap;
-    border: 2px solid red;
+  }
+  .my-img-container {
+    border: none;
+  }
+  .my-img {
+    border: none;
+  }
+  .about-me {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+  .about-me-heading {
+    font-size: 1.05rem;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .about-me-container {
+    max-width: 100%;
+    flex-wrap: wrap;
   }
   .my-img-container {
     border: none;

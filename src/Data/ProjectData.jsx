@@ -1,5 +1,3 @@
-
-
 const ProjectData = [
   {
     projectName: "Calulator",

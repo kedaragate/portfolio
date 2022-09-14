@@ -6,10 +6,12 @@
   outline: none;
   border: 0.2px solid white;
   border-radius: 5px;
+  position: absolute;
+  right: -12%;
 }
 .resume-button:hover {
   cursor: pointer;
-  transform: scale(0.9);
+  /* transform: scale(0.9); */
   background: rgb(0, 0, 0);
   background: linear-gradient(
     225deg,
@@ -17,13 +19,21 @@
     rgb(0, 61, 98) 100%
   );
   color: white;
-}
 
+  animation: buttonSlide 0.5s ease-in-out 0.5s forwards;
+}
+@keyframes buttonSlide {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-80%);
+  }
+}
 .resume-button-area {
-  position: fixed;
   right: 0;
   margin-right: 20px;
-  border: 2px solid red;
 
   text-align: right;
 }
