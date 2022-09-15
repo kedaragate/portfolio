@@ -8,6 +8,12 @@
   position: absolute;
   z-index: 10;
   background-color: black;
+animation: sideBarTransform 1s ease in out forwards;
+}
+@keyframes sideBarTransform{
+100%{
+transform: translateX(100%)
+}
 }
 
 .sidebar-button {
