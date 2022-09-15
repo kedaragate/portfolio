@@ -8,7 +8,7 @@ export default function Sidebar() {
     setHideSideBar(!hideSideBar);
 
   }
-let buttonText=hideSideBar?(<><hr /><hr /><hr /></>):"X"
+let buttonText=hideSideBar?(<div></div><div></div><div></div>):"X"
 
   return (<>
     <div className={`sidebar ${hideSideBar ? "hidden" : ""}`}>
