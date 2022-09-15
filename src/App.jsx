@@ -7,12 +7,14 @@ import Projects from "./components/Projects/Projects";
 
 import "./App.css";
 import Resume from "./components/Resume/Resume";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <Resume />
+      <Sidebar />
+      {/* <Resume /> */}
       <Header />
       <AboutMe />
       <Projects />

@@ -1,7 +1,7 @@
 #root {
-  padding: 2rem;
+  padding: 0;
 
-  margin: 20px auto;
+  margin: 0px auto;
 
   @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Ubuntu:wght@300;400;700&display=swap");
   font-family: "Ubuntu", sans-serif;
