@@ -8,7 +8,7 @@ export default function Sidebar() {
     setHideSideBar(!hideSideBar);
 
   }
-let buttonText=hideSideBar?(<><div className="line"></div><div className="line"></div><div className="line"></div></>):"X
+let buttonText=hideSideBar?(<><div className="line"></div><div className="line"></div><div className="line"></div></>):"X"
   return (<>
     <div className={`sidebar ${hideSideBar ? "hidden" : ""}`}>
       <button className="sidebar-button" onClick={handleClick}>
