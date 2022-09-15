@@ -15,7 +15,7 @@ animation: sideBarTransform 1s ease in out forwards;
 transform: translateX(0%)
 }
 100%{
-transform: translateX(100%)
+transform: translateX(50%)
 }
 }
 
