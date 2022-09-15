@@ -9,12 +9,13 @@ export default function Sidebar() {
   }
 
   return (<>
-    <div className={`sidebar ${hideSideBar ? "hidden" : ""}`}></div>
+    <div className={`sidebar ${hideSideBar ? "hidden" : ""}`}>
       <button className="sidebar-button" onClick={handleClick}>
         <hr />
         <hr />
         <hr />
       </button>
+</div>
 </>
     
   );
