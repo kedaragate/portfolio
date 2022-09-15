@@ -11,7 +11,7 @@ export default function Sidebar() {
   return (<>
     <div className={`sidebar ${hideSideBar ? "hidden" : ""}`}>
       <button className="sidebar-button" onClick={handleClick}>
-       { hideSideBar?<hr /><hr /><hr />:"X"}
+       { hideSideBar?(<hr /><hr /><hr />):"X"}
         
         
       </button>
