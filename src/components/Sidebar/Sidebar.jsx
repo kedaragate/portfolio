@@ -6,13 +6,15 @@ export default function Sidebar() {
 
   function handleClick() {
     setHideSideBar(!hideSideBar);
+
   }
+let buttonText=hideSideBar?(<><hr /><hr /><hr /></>):"X"}
 
   return (<>
     <div className={`sidebar ${hideSideBar ? "hidden" : ""}`}>
       <button className="sidebar-button" onClick={handleClick}>
-       { hideSideBar?(<hr /><hr /><hr />):"X"}
-        
+       
+        {buttonText}
         
       </button>
 </div>
