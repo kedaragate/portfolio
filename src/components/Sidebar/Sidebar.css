@@ -1,14 +1,11 @@
 .sidebar{
 position: absolute;
-transform: translateX(-100%)
-animation:translateSideBar 1s ease in out forwards;
-}
-@keyframes translateSideBar{
-0%{
-transform: translateX(0%)}
-100%{
-transform: translateX(100%)}
+left:0%;
+right: 20%;
+
 }
 
+
 .hidden{
-display: none}
+display: none
+}
