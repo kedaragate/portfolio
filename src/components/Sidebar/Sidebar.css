@@ -11,6 +11,9 @@
 animation: sideBarTransform 1s ease in out forwards;
 }
 @keyframes sideBarTransform{
+0%{
+transform: translateX(0%)
+}
 100%{
 transform: translateX(100%)
 }
