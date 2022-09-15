@@ -16,7 +16,7 @@ body {
     rgb(0, 61, 98) 100%
   );
   min-width: 100%;
-overflow-x:hidden;
+
   color: white;
   background-attachment: fixed;
 }
