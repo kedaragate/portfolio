@@ -9,7 +9,7 @@ const ProjectData = [
 {
     projectName: "Movie Search Project",
     projectInfo: "Project using HTML, css & React JS",
-    projectImg: "../images/calculatorProject.jpg",
+    projectImg: "../images/movieProject.jpg",
     projectLink: "https://preeminent-pothos-c5b608.netlify.app",
     projectID: 2,
   },
