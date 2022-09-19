@@ -6,13 +6,21 @@ const ProjectData = [
     projectLink: "https://incomparable-blancmange-390e08.netlify.app/",
     projectID: 1,
   },
+{
+    projectName: "Movie Search Project",
+    projectInfo: "Project using HTML, css & React JS",
+    projectImg: "../images/calculatorProject.jpg",
+    projectLink: "https://preeminent-pothos-c5b608.netlify.app",
+    projectID: 2,
+  },
+
 
   {
     projectName: "Coming Soon...",
     // projectInfo: "",
     // projectImg: "../../public/images/calculatorProject.jpg",
     // projectLink: "https://incomparable-blancmange-390e08.netlify.app/",
-    projectID: 2,
+    projectID: 3,
   },
 ];
 
